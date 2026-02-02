@@ -71,7 +71,7 @@ export const formatPrice = (
     cycleStr = "月";
   } else if (billingCycle >= 89 && billingCycle <= 92) {
     cycleStr = "季";
-  } else if (billingCycle >= 180 && billingCycle <= 183) {
+  } else if (billingCycle >= 180 && billingCycle <= 184) {
     cycleStr = "半年";
   } else if (billingCycle >= 364 && billingCycle <= 366) {
     cycleStr = "年";
